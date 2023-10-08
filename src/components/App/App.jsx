@@ -1,11 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { lazy } from 'react';
 
-import SharedLayout from 'components/SharedLayout/SharedLayout';
-import HomePage from 'pages/HomePage/HomePage';
-import CarCatalog from 'pages/CarCatalog/CarCatalog';
-import Favorites from 'pages/Favorites/Favorites';
-import NotFound from 'pages/NotFound/NotFound';
+const SharedLayout = lazy(() => import('components/SharedLayout/SharedLayout'));
+const HomePage = lazy(() => import('pages/HomePage/HomePage'));
+const CarCatalog = lazy(() => import('pages/CarCatalog/CarCatalog'));
+const Favorites = lazy(() => import('pages/Favorites/Favorites'));
+const NotFound = lazy(() => import('pages/NotFound/NotFound'));
 
 const App = () => {
   return (
