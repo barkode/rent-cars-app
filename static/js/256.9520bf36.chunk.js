@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrent_cars_app=self.webpackChunkrent_cars_app||[]).push([[256],{256:function(e,n,r){r.r(n);r(791);var a=r(184);n.default=function(){return(0,a.jsx)(a.Fragment,{children:(0,a.jsx)("h1",{children:"PAGE NOT FOUND"})})}}}]);
+//# sourceMappingURL=256.9520bf36.chunk.js.map
