@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkrent_cars_app=self.webpackChunkrent_cars_app||[]).push([[680],{680:function(e,n,r){r.r(n);r(791);var s=r(907),c=r(184);n.default=function(){return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(s.ql,{children:(0,c.jsx)("title",{children:"Home page"})}),(0,c.jsx)("h1",{children:"THIS IS HOME PAGE PAGE"})]})}}}]);
+//# sourceMappingURL=680.681a198e.chunk.js.map
