@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const Favorite = () => {
+  // useEffect(() => {
+  // localStorage.getItem()
+  // }, [])
+
   return (
-    <>
+    <main>
       <Helmet>
         <title>Your favorites</title>
       </Helmet>
-      <h1>THIS IS FAVORITE PAGE</h1>
-    </>
+      {/* Cars should be stored here */}
+    </main>
   );
 };
 export default Favorite;
